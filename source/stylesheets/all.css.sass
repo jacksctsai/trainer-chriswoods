@@ -1,0 +1,97 @@
+@import compass
+@import compass/reset
+
+$default-font: Arial, Helvetica, sans-serif
+
+#header
+  width: 120px
+  padding: 160px 0 20px
+  margin: 0 auto
+
+#title
+  width: 120px
+
+#home-link
+  +hide-text
+  background: url( "/img/sprite/logo.png" ) no-repeat
+  display: block
+  width: 120px
+  height: 18px
+
+#title
+  margin: 0 auto
+
+#gallery
+  +clearfix
+  width: 775px
+  margin: 0 auto
+
+.gallery-item
+  +clearfix
+  +float-left
+  width: 190px
+  height: 120px
+  padding: 0 1px 1px 0
+
+.gallery-link
+  +clearfix
+  display: block
+
+.gallery-clip
+  display: block
+
+#footer
+  +clearfix
+  clear: both
+  width: 770px
+  padding: 25px 0 0
+  margin: 0 auto
+
+#nav
+  +float-left
+
+.nav-item
+  +inline-block
+  +float-left
+  padding: 0 30px 0 0
+
+.nav-item-link
+  font-family: $default-font
+  font-size: 13px
+  font-weight: bold
+  color: #b9b9b9
+  text-decoration: none
+  &:hover
+    color: black
+
+#buttons
+  +float-right
+
+.btn-item
+  +float-left
+  display: block
+  padding: 0 10px
+
+.btn
+  +hide-text
+  display: block
+
+#volume-btn
+  background: url( "/img/controller1.png" ) no-repeat
+  width: 45px
+  height: 15px
+
+#loop-btn
+  background: url( "/img/controller2.png" ) no-repeat
+  width: 45px
+  height: 15px
+
+#casette-btn
+  background: url( "/img/controller3.png" ) no-repeat
+  width: 19px
+  height: 15px
+
+#controlling-keys
+  background: url( "/img/controller4.png" ) no-repeat
+  width: 28px
+  height: 15px
