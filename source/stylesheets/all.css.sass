@@ -17,6 +17,10 @@ $default-font: Arial, Helvetica, sans-serif
   display: block
   width: 120px
   height: 18px
+  padding: 0 0 6px
+  &:hover, &:active
+    border-bottom: 2px solid grey
+    padding: 0 0 4px
 
 #title
   margin: 0 auto
@@ -36,6 +40,8 @@ $default-font: Arial, Helvetica, sans-serif
 .gallery-link
   +clearfix
   display: block
+  &:hover, &:active
+    border: 1px solid grey
 
 .gallery-clip
   display: block
@@ -75,6 +81,8 @@ $default-font: Arial, Helvetica, sans-serif
 .btn
   +hide-text
   display: block
+  &:hover, &:active
+    opacity: 0.7
 
 #volume-btn
   background: url( "/img/controller1.png" ) no-repeat
